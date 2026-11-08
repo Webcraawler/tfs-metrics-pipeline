@@ -42,7 +42,7 @@ THRESHOLDS = {
     "bad_timestamps": 0.01,
     "outside_period": 0.01,
     "zero_distance": None,
-    "fare_mismatch": 0.10, # correct value = 0.45 , to test fail value = 0.10
+    "fare_mismatch": 0.45, # correct value = 0.45 , to test fail value = 0.10
 }
 # rows failing these checks are left out of the revenue metrics
 QUARANTINE = ["missing_required", "duplicate_rows", "negative_amounts",
