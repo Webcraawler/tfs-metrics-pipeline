@@ -34,7 +34,7 @@ def find_problems(df):
     return problems
 
 
-# check name -> block the run if MORE than this share of rows is bad (None = never block)
+# check name - block the run if MORE than this share of rows is bad (None = never block)
 THRESHOLDS = {
     "missing_required": 0.01,
     "duplicate_rows": 0.01,
